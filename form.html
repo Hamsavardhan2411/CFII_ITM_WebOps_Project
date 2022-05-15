@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai Watelogging Platform</title>
+    <link rel="stylesheet" href="form1.css">
+
+</head>
+
+
+<body>
+    <span>
+        <h1>Chennai Waterlogging Platform</h1>
+    </span>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form id="searchform">
+        <div>
+            <p>
+                <label for="name">Enter your Name : </label>
+                <input id="name" type="text" placeholder="Name" required>
+            </p>
+            <p> <label for="loc">Your Location : </label>
+                <input id="loc" type="text" placeholder="Location" name="loc" required>
+            </p>
+            <p><label for="no">Contact Number : </label>
+                <input id="no" type="number" placeholder="Contact No." required minlength="10">
+            </p>
+            <p> <label for="qe">Query : </label>
+                <textarea name="q" id="qe" cols="30" rows="10" placeholder="Tell us about your situation"></textarea>
+
+            </p>
+            <p>
+
+                <Button>Submit</Button>
+            </p>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="form.js"></script>
+
+
+</body>
+
+</html>

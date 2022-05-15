@@ -1,0 +1,47 @@
+form {
+    font-size: large;
+    font-family: "monaco";
+
+}
+
+h1 {
+    color: black;
+    border: dotted;
+    text-align: center;
+    background-color: skyblue;
+}
+
+button {
+    color: black;
+    background-color: gray;
+}
+
+form {
+    text-align: center;
+    font-weight: 850;
+
+    background: -moz-linear-gradient(dark blue, skyblue);
+}
+
+body {
+    background-color: white;
+}
+
+div {
+    font-size: large;
+    background-image: -moz-element(blue);
+    text-align: center;
+}
+
+input {
+    text-align: left;
+    border-radius: 0px;
+    border-color: black;
+
+}
+
+label {
+    background-color: skyblue;
+    border-style: double;
+
+}
